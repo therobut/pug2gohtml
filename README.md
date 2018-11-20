@@ -1,9 +1,8 @@
 # pug2gohtml
-
-## Introduction
 Small program to convert Pug templates to Go HTML templates.
 
-Only tested with Pug written for Go using github.com/eknkc/pug
+## Introduction
+This small program converts Pug into Go HTML template code by using `github.com/eknkc/pug`. May not work with all Pug code.
 
 I've recently become frustrated with the limitations of using Pug in Go, and the library doesn't seem to be getting any updates. Since I was using it on a project for work, and don't have the time to contribute, I just abandoned using it altogether. 
 
