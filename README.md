@@ -4,7 +4,7 @@ Small program to convert Pug templates to Go HTML templates.
 
 Only tested with Pug written for Go using github.com/eknkc/pug
 
-I've recently become frustrated with the limitations of using Pug in Go, and the library doesn't seem to be getting any updates. Since I was using it on a project for work, and don't have the time to contribute, I just abandoned it altogether. 
+I've recently become frustrated with the limitations of using Pug in Go, and the library doesn't seem to be getting any updates. Since I was using it on a project for work, and don't have the time to contribute, I just abandoned using it altogether. 
 
 This small program will take your Pug code and convert it into a Go html template. You will still have to go in and tweak some things, such as if statements, but it's much better than having to rewrite the entire thing by hand.
 
