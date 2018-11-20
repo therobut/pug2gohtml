@@ -1,5 +1,6 @@
 # pug2gohtml
 
+## Introduction
 Small program to convert Pug templates to Go HTML templates.
 
 Only tested with Pug written for Go using github.com/eknkc/pug
@@ -20,3 +21,9 @@ Make sure your GOPATH is set up properly
 `pug2gohtml index.pug` (file extension optional)
 
 This will generate index.html. Make sure to check any template code within the produced file. I have found that the `{{...}}` statements can be a little garbled and may not work without some tweaking. This is due to the library used for conversion.
+
+## Contributing
+
+If you want to contribute to this small project, please feel free to submit a PR. 
+
+Make sure to clone this repository **OUTSIDE** your GOPATH. This project is using Go's new experimental "modules" support, and is best not placed in GOPATH.
